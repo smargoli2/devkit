@@ -21,6 +21,7 @@ jobs:
 
       - name: Test
         uses: ./.github/actions/test
+
   release:
     runs-on: ubuntu-latest
 
