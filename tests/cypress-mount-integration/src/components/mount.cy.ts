@@ -5,11 +5,11 @@ import { HelloDIComponent } from '../fixtures/hello-dependency-injection.compone
 import { HelloComponent } from '../fixtures/hello.component';
 import { OutputComponent } from '../fixtures/output.component';
 import { TwoWayDataBindingModule } from '../fixtures/two-way-data-binding-component';
-import { AppInfo } from './../fixtures/hello-dependency-injection.component';
-import { HelloScssComponent } from './../fixtures/hello-scss.component';
-import { HelloStyleUrlsComponent } from './../fixtures/hello-style-urls.component';
-import { HelloTemplateUrlComponent } from './../fixtures/hello-template-url.component';
-import { HelloModule } from './../fixtures/hello.component';
+import { AppInfo } from '../fixtures/hello-dependency-injection.component';
+import { HelloScssComponent } from '../fixtures/hello-scss.component';
+import { HelloStyleUrlsComponent } from '../fixtures/hello-style-urls.component';
+import { HelloTemplateUrlComponent } from '../fixtures/hello-template-url.component';
+import { HelloModule } from '../fixtures/hello.component';
 
 describe('mount', () => {
   it('should handle dependency injection', () => {
